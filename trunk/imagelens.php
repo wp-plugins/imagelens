@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Imagelens
-Plugin URI: http://www.ramoonus.nl
-Description: A jQuery plug-in for Lens Effect Image Zooming
+Plugin URI: http://www.ramoonus.nl/wordpress/imagelens/
+Description: jQuery plug-in for Lens Effect Image Zooming
 Version: 1.0.0
 Author: Ramoonus
-Author URI: http://www.ramoonus.nl/wordpress/imagelens/
+Author URI: http://www.ramoonus.nl/
 */
 
 // Install
