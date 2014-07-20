@@ -1,9 +1,9 @@
 === Plugin Name ===
 Contributors: ramoonus
 Donate link: http://www.ramoonus.nl
-Tags: jquery, imagelens
+Tags: jquery, imagelens, adopt-me
 Requires at least: 3.0.0
-Tested up to: 3.2
+Tested up to: 3.9.1
 Stable tag: 1.0.0
 
 A jQuery plug-in for Lens Effect Image Zooming. 
