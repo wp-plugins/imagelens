@@ -7,21 +7,36 @@
         var defaults = {
             lensSize: 100,
             borderSize: 4,
-            borderColor: "#888"
+            borderColor: "#888",
+			lensCss: 'the-lens',
+			addInset: false,
+			addShadow: false,
+			Inset: 'null',
+			Shadow: 'null',
         };
+		
         var options = $.extend(defaults, options);
-        var lensStyle = "background-position: 0px 0px;width: " + String(options.lensSize) + "px;height: " + String(options.lensSize)
+        
+		if (options.addInset == true){
+			options.Inset = 'webkit-box-shadow: inset 1px 0px 31px 2px rgba(0,0,0,0.75); -moz-box-shadow: inset 1px 0px 31px 2px rgba(0,0,0,0.75); box-shadow: inset 1px 0px 31px 2px rgba(0,0,0,0.75);';
+		}
+		
+		if (options.addShadow == true){
+			options.Shadow = '-webkit-box-shadow: 1px 0px 31px 2px rgba(0,0,0,0.75);-moz-box-shadow: 1px 0px 31px 2px rgba(0,0,0,0.75);box-shadow: 1px 0px 31px 2px rgba(0,0,0,0.75);';
+		}
+		
+		var lensStyle = "background-position: 0px 0px;width: " + String(options.lensSize) + "px;height: " + String(options.lensSize)
             + "px;float: left;display: none;border-radius: " + String(options.lensSize / 2 + options.borderSize)
             + "px;border: " + String(options.borderSize) + "px solid " + options.borderColor 
-            + ";background-repeat: no-repeat;position: absolute;";
-
+            + ";background-repeat: no-repeat;position: absolute; cursor: none;" + options.Inset + options.Shadow;
+		
         return this.each(function () {
             obj = $(this);
 
             var offset = $(this).offset();
 
             // Creating lens
-            var target = $("<div style='" + lensStyle + "' class='" + options.lensCss + "'>&nbsp;</div>").appendTo($(this).parent());
+            var target = $("<div style='" + lensStyle + "' class='" + options.lensCss + "'>&nbsp;</div>").appendTo($("body"));
             var targetSize = target.size();
 
             // Calculating actual size of image
