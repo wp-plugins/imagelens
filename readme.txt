@@ -4,14 +4,13 @@ Donate link: http://mattcromwell.com
 Tags: jquery, image lens, images, image effects
 Requires at least: 3.0.0
 Tested up to: 4.0
-Stable tag: 2.0.0
+Stable tag: 2.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 A simple WordPress plug-in with one dramatic effect: Image ZOOMING! 
 
 == Description ==
-
 A simple WordPress plug-in with one dramatic effect: Image ZOOMING!
 
 **NOTE:** I just adopted this plugin and have now updated it. Previously, it did not function at all, but now it's been totally refactored and rebuilt from the ground up. It's now totally current with the latest bleed-edge version of WordPress and uses modern coding standards and works really reliably.
@@ -24,7 +23,6 @@ If you like ImageLens, you might also want to checkout [ZOOM!](http://wordpress.
 
 
 == Installation ==
-
 ###In the Admin###
 1. Search for "Image Lens"
 2. Click "install"
@@ -67,16 +65,16 @@ For now, you can enable the "Selective" option on the page where you're widget w
 Hey, that's what I'm here for. But if you'd really like to thank me, check out my <a href="http://mattcromwell.com" target="_blank">website</a>, subscribe to my newsletter, tweet about how much you like the plugin, or feel free to donate here.
 
 == Upgrade Notice == 
-
 If you still have this installed -- WOW! Why!? But hey, cool! Upgrade now. It will now work with your WordPress install.
 
 == Screenshots ==
-
 1. ImageLens effect with strong border and drop-shadow
 2. ImageLens effect with no border and inset shadow
 3. Editor Settings
 
 == Changelog ==
+= 2.0.1 =
+* Bugfix for shortcodes not rendering in content correctly. Thanks [kove](http://wordpress.org/support/topic/gallery-images-do-not-display-after-activation-of-the-plugin?replies=3) for the heads up.
 
 = 2.0.0 =
 * Just re-released, totally refactored by [webdevmattcrom](http://profiles.wordpress.org/webdevmattcrom/). 

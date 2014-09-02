@@ -3,7 +3,7 @@
 Plugin Name: Imagelens
 Plugin URI: http://www.mattcromwell.com/image-lens
 Description: A simple plugin with one simple purpose: ZOOM!
-Version: 2.0.0
+Version: 2.0.1
 Author: webdevmattcrom, Ramoonus
 Author URI: http://www.mattcromwell.com/image-lens
 Text Domain: mc-imagelens
@@ -152,7 +152,7 @@ add_action( 'wp_footer', 'enqueue_imagelens_init' );
 //Adds a wrapper inside of the content loop with a custom class 
 // for imagelens.js to find the images with.
 // only triggers when "enable_all" is selected
-add_filter('the_content', 'imagelens_custom_class');
+// add_filter('the_content', 'imagelens_custom_class');
 
 function imagelens_custom_class($content) {
 	global $post;
@@ -160,7 +160,7 @@ function imagelens_custom_class($content) {
 	
 	if ((isset($cond['mcil_enable_imagelens'])) && ($cond['mcil_enable_imagelens'] == 'enable_all')) {
 	$mcil_class = '<div class="imagelens-content">';
-    $mcil_class .= $content;
+    $mcil_class .= do_shortcode($content);
     $mcil_class .= '</div>';
 
     $filteredcontent = $mcil_class;
@@ -187,7 +187,7 @@ function enable_lens_on_single() {
 			
 			if ($cond['mcil_enable_shadow'] == 'enable_drop') {$drop = 'true';} else {$drop = 'false';}
 			if ($cond['mcil_enable_shadow'] == 'enable_inset') {$inset = 'true';} else {$inset = 'false';}
-		?>
+		 ?>
 			<script type="text/javascript">
 				jQuery(function ($) {
 					$('img.imagelens-single').imageLens({ 
