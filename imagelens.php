@@ -152,7 +152,7 @@ add_action( 'wp_footer', 'enqueue_imagelens_init' );
 //Adds a wrapper inside of the content loop with a custom class 
 // for imagelens.js to find the images with.
 // only triggers when "enable_all" is selected
-// add_filter('the_content', 'imagelens_custom_class');
+add_filter('the_content', 'imagelens_custom_class');
 
 function imagelens_custom_class($content) {
 	global $post;
@@ -167,7 +167,7 @@ function imagelens_custom_class($content) {
 
     return $filteredcontent;
 	} else {
-	echo $content;
+	echo do_shortcode($content);
 	}
 }
 

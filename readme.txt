@@ -4,14 +4,14 @@ Donate link: http://mattcromwell.com
 Tags: jquery, image lens, images, image effects
 Requires at least: 3.0.0
 Tested up to: 4.0
-Stable tag: 2.0.1
+Stable tag: 2.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A simple WordPress plug-in with one dramatic effect: Image ZOOMING! 
+A simple WordPress plug-in with one dramatic effect: ImageLens Magnify! 
 
 == Description ==
-A simple WordPress plug-in with one dramatic effect: Image ZOOMING!
+A simple WordPress plug-in with one dramatic effect: ImageLens Magnify!
 
 **NOTE:** I just adopted this plugin and have now updated it. Previously, it did not function at all, but now it's been totally refactored and rebuilt from the ground up. It's now totally current with the latest bleed-edge version of WordPress and uses modern coding standards and works really reliably.
 
@@ -40,6 +40,7 @@ If you like ImageLens, you might also want to checkout [ZOOM!](http://wordpress.
 == Frequently Asked Questions == 
 
 = How does this thing work? =
+
 Once ImageLens is enabled, you'll notice a box below your post and page editor that says: "Enable ImageLens for this Content Area?" That is where all the magic is. Once you check that checkbox, you'll be given choices to customize the look and functionality of ImageLens for that specific post/page. Here's a quick summary of your options:
 - *ALL IMAGES*: With this option you can enable all the images you place into this post or page to have the ImageLens effect, even galleries.
 - *PER IMAGE*: If you prefer to have choose specific images in your post/page that have the ImageLens effect, choose this option. Then when you go to add your image, make sure to choose "Yes" in the "Enable ImageLens" selector.
@@ -64,8 +65,12 @@ For now, you can enable the "Selective" option on the page where you're widget w
 			 
 Hey, that's what I'm here for. But if you'd really like to thank me, check out my <a href="http://mattcromwell.com" target="_blank">website</a>, subscribe to my newsletter, tweet about how much you like the plugin, or feel free to donate here.
 
+= Known Issues =
+
+Currently, this doesn't handle multiple images on the same page very well. I have a fix, but it'll take a serious re-working, so it'll take a little time. Be patient, but it's on the horizon for sure. Thanks!
+
 == Upgrade Notice == 
-If you still have this installed -- WOW! Why!? But hey, cool! Upgrade now. It will now work with your WordPress install.
+Bugfix: Enable all images fixed.
 
 == Screenshots ==
 1. ImageLens effect with strong border and drop-shadow
