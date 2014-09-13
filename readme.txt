@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: webdevmattcrom, ramoonus
+Contributors: webdevmattcrom
 Donate link: http://mattcromwell.com
 Tags: jquery, image lens, images, image effects
 Requires at least: 3.0.0
@@ -73,9 +73,10 @@ Currently, this doesn't handle multiple images on the same page very well. I hav
 Bugfix: Enable all images fixed.
 
 == Screenshots ==
-1. ImageLens effect with strong border and drop-shadow
-2. ImageLens effect with no border and inset shadow
-3. Editor Settings
+1. No Women were objectified in the making of this plugin
+2. ImageLens effect with strong border and drop-shadow
+3. ImageLens effect with no border and inset shadow
+4. Editor Settings
 
 == Changelog ==
 = 2.0.1 =
