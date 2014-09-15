@@ -21,6 +21,8 @@ This plugin allow you to selectively enable an "ImageLens" effect on your posts 
 
 If you like ImageLens, you might also want to checkout [ZOOM!](http://wordpress.org/plugins/foogallery-zoom-template), which is a template for [FooGallery](http://wordpress.org/plugins/foogallery). It has a very similar effect, but also so additional image filtering features you might enjoy.
 
+Also read about [how this plugin was developed, and how you can stand in solidarity with women developers everywhere](http://www.mattcromwell.com/no-women-were-objectified-while-making-this-plugin/).
+
 
 == Installation ==
 ###In the Admin###
@@ -73,10 +75,9 @@ Currently, this doesn't handle multiple images on the same page very well. I hav
 Bugfix: Enable all images fixed.
 
 == Screenshots ==
-1. No Women were objectified in the making of this plugin
-2. ImageLens effect with strong border and drop-shadow
-3. ImageLens effect with no border and inset shadow
-4. Editor Settings
+1. ImageLens effect with strong border and drop-shadow
+2. ImageLens effect with no border and inset shadow
+3. Editor Settings
 
 == Changelog ==
 = 2.0.1 =
