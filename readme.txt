@@ -25,11 +25,13 @@ Also read about [how this plugin was developed, and how you can stand in solidar
 
 
 == Installation ==
+
 ###In the Admin###
 1. Search for "Image Lens"
 2. Click "install"
 3. Upon success notification click "Activate Plugin"
 4. Enjoy!
+
 ###Manual Install###
 1. Click "Download Version 1.0.0"
 2. Go to your WordPress site, to "Plugins > Add New"
