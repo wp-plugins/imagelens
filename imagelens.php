@@ -4,7 +4,7 @@ Plugin Name: Imagelens
 Plugin URI: http://www.mattcromwell.com/image-lens
 Description: A simple plugin with one simple purpose: ZOOM!
 Version: 2.0.2
-Author: webdevmattcrom, Ramoonus
+Author: webdevmattcrom
 Author URI: http://www.mattcromwell.com/image-lens
 Text Domain: mc-imagelens
 */
